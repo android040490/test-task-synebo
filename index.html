@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+       <div class="wrapper">
+            <div class="form-container">
+                <div class="form-container__greeting">
+                    <div class="greeting">
+                        <h3 class="greeting__title">
+                            Hello, stranger
+                        </h3>
+                        <div class="greeting__hr-line"></div>
+                        <p class="greeting__text">
+                                In our portal you can handle all your project in the easiest of possible ways, and keep it under your total control.
+                        </p>
+                    </div>
+                </div>
+                <div class="form-container__form">
+                    <div class="reg-form">
+                        <h4 class="reg-form__title">Registration</h4>
+                        <p class="reg-form__descr">Fill all the fields below.</p>
+                        <form class="reg-form__form" action="">
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            <p class="err-input-message">Email is not valid</p>
+                            <p class="reg-form__hint">Type here your password</p>
+                            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                            <p class="err-input-message">Password must have at least 8 characters, at least one letter, one number and one special character from ?! # #%:; * / \ + -</p>
+                            <button class="reg-form__btn" id="submit-btn" type="submit">
+                                <img class="reg-form__icon-btn" src="assets/icons/padlock.png" alt="">
+                                Create account
+                            </button>
+                        </form>
+                        <p class="reg-form__terms">By signing up I accept with <a href="#">Terms and Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
